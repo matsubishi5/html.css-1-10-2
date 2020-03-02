@@ -35,6 +35,7 @@ h2,p {
 .content1-title {
 	background-color: orange;
 	color: white;
+	padding: 3px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -51,6 +52,7 @@ h2,p {
 .content2-title {
 	background-color: orange;
 	color: white;
+	padding: 3px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -66,7 +68,29 @@ h2,p {
 .content3-title {
 	background-color: orange;
 	color: white;
+	padding: 3px;
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+@media screen and (max-width:768px) {
+	main {
+		width: 100%;
+	}
+
+	.content1 {
+		margin: 30px auto;
+		float: none;
+	}
+
+	.content2 {
+		margin: 30px auto;
+		float: none;
+	}
+
+	.content3 {
+		margin: 30px auto;
+		float: none;
+	}
 }
